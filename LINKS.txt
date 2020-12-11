@@ -1,0 +1,3 @@
+1. Example website https://huddle.netlify.app
+2. If you want to add scroll animation then follow this link
+https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
