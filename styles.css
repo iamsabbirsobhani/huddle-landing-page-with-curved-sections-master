@@ -156,7 +156,7 @@ body>div>div.item.item-1>img {
     background-color: #F6FBFF;
 }
 
-.item-4-bg-top{
+.item-4-bg-top {
     margin-top: 200px;
 }
 
@@ -194,7 +194,7 @@ body>div>div.item.item-1>img {
     background-color: #F6FBFF;
 }
 
-.item-6-bg-top{
+.item-6-bg-top {
     margin-top: 200px;
 }
 
@@ -245,7 +245,7 @@ body>div>div.item.item-1>img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 100px;
+    padding: 70px;
     /* background: url(/images/bg-footer-top-desktop.svg) no-repeat 100% -0px /contain; */
     background-color: #00252E;
     /* -webkit-background-size: cover;
@@ -265,20 +265,24 @@ body>div>div.item.item-1>img {
     width: 370px;
 }
 
-#phone{
+#phone {
     width: 13px;
 }
-.phone{
+
+.phone {
     display: inline;
     margin-left: 10px;
 }
-#mail{
+
+#mail {
     width: 13px;
 }
-.mail{
+
+.mail {
     display: inline;
     margin-left: 10px;
 }
+
 .item-8 button {
     border-radius: 3px;
     width: 150px;
@@ -312,6 +316,46 @@ body>div>div.item.item-1>img {
 
 .item-8 input:hover {
     box-shadow: 1px 1px 10px 0.5px white;
+}
+
+.social {
+    margin-top: 50px;
+}
+
+.fab {
+    display: inline-block;
+    width: 20px;
+    box-sizing: border-box;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    margin-left: 20px;
+}
+
+.fa-twitter-square {
+    margin-left: 20px;
+}
+
+.fab:hover {
+    transform: translateY(-10px);
+}
+
+.fa-facebook-square:hover {
+    color: #FB54C2;
+}
+
+
+.fa-instagram:hover {
+    color: #FB54C2;
+}
+
+.fa-twitter-square:hover {
+    color: #FB54C2;
 }
 
 
