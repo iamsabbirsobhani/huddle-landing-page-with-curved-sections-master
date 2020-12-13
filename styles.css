@@ -1,8 +1,7 @@
 body {
     position: relative;
-    margin: 0px;
     font-family: 'Open Sans';
-    /* background-color: rgb(92, 92, 92); */
+    margin: 0px;
 }
 
 h1,
@@ -96,7 +95,6 @@ body>div>div.item.item-1>img {
 .item-2 img {
     margin-top: 50px;
     width: 700px;
-    /* margin: 0px; */
 }
 
 .item-3 {
@@ -124,7 +122,6 @@ body>div>div.item.item-1>img {
 #item-3-1 p {
     color: hsl(0, 0%, 53%);
     margin: 0px;
-    /* text-align: center; */
     font-size: 15x;
     width: 170px;
 }
@@ -246,14 +243,8 @@ body>div>div.item.item-1>img {
     flex-direction: row;
     justify-content: space-between;
     padding: 70px;
-    /* background: url(/images/bg-footer-top-desktop.svg) no-repeat 100% -0px /contain; */
     background-color: #00252E;
-    /* -webkit-background-size: cover;
-    -moz-background-size: 100% 100%;
-    -o-background-size: cover;
-    background-size: 100% 100%; */
     color: white;
-
 }
 
 .item-8 img {
@@ -377,7 +368,6 @@ body>div>div.item.item-1>img {
     color: hsl(228, 45%, 44%);
     transition: all .3s;
     letter-spacing: 1px;
-
 }
 
 .attribution a:link {
@@ -394,6 +384,254 @@ body>div>div.item.item-1>img {
 
 .attribution a:active {
     color: rgba(255, 2, 2, 0.685);
+}
+
+/* Media Query*/
+
+/* For (Tablet && Less than PC/Laptop) devices (min-width: 425px) and */
+@media (max-width: 786px) {
+
+
+
+    .item-1 img {
+        width: 156px;
+        height: 25px;
+    }
+
+    .item-2 h1{
+        font-size: 25px;
+    }
+
+    .item-2 {
+        width: 600px;
+    }
+
+    .item-2 img {
+        width: 500px;
+    }
+
+
+    #item-3-1 {
+        width: 140px;
+    }
+
+    .item-4-bg-top {
+        margin-top: 200px;
+    }
+
+    #item-4-1 {
+        width: 250px;
+    }
+
+    #item-4-1 p {
+        width: 250px;
+    }
+
+    .item-4 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    .item-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 200px;
+    }
+
+    #item-5-2 {
+        width: 300px;
+    }
+
+    .item-5 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    #item-5-2 p{
+        width: 250px;
+    }
+
+    .item-6-bg-top {
+        margin-top: 200px;
+    }
+
+    #item-6-1 {
+        width: 300px;
+    }
+
+    .item-6 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    #item-6-1 p {
+        width: 250px;
+    }
+
+    .item-7 {
+        width: 600px;
+
+    }
+
+    .item-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #00252E;
+        color: white;
+        font-size: 13px;
+    }
+
+    .item p {
+        width: 300px;
+    }
+
+    .item-8 button {
+        width: 100px;
+
+    }
+
+    .item-8 input {
+        height: 25px;
+        width: 150px;
+    }
+    .social {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fab {
+        font-size: 25px;
+    }
+
+}
+
+/* MAX width 425 */
+
+@media (max-width: 425px) {
+
+
+    .item-1 img {
+        width: 156px;
+        height: 25px;
+    }
+
+    .item-2 h1{
+        font-size: 25px;
+    }
+
+    .item-2 {
+        width: 600px;
+    }
+
+    .item-2 img {
+        width: 500px;
+    }
+
+
+    #item-3-1 {
+        width: 140px;
+    }
+
+    .item-4-bg-top {
+        margin-top: 200px;
+    }
+
+    #item-4-1 {
+        width: 250px;
+    }
+
+    #item-4-1 p {
+        width: 250px;
+    }
+
+    .item-4 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    .item-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 200px;
+    }
+
+    #item-5-2 {
+        width: 300px;
+    }
+
+    .item-5 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    #item-5-2 p{
+        width: 250px;
+    }
+
+    .item-6-bg-top {
+        margin-top: 200px;
+    }
+
+    #item-6-1 {
+        width: 300px;
+    }
+
+    .item-6 img {
+        width: 300px;
+        margin: 0px;
+
+    }
+
+    #item-6-1 p {
+        width: 250px;
+    }
+
+    .item-7 {
+        width: 600px;
+
+    }
+
+    .item-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #00252E;
+        color: white;
+        font-size: 13px;
+    }
+
+    .item p {
+        width: 200px;
+    }
+
+    .item-8 button {
+        width: 100px;
+
+    }
+
+    .item-8 input {
+        height: 25px;
+        width: 150px;
+    }
+    .social {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fab {
+        font-size: 25px;
+    }
+
 }
 
 /* End */
