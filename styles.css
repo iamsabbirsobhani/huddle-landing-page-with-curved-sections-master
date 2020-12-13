@@ -150,10 +150,10 @@ body>div>div.item.item-1>img {
 }
 
 .item-4 {
-    margin-top: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #F6FBFF;
 }
 
 #item-4-1 {
