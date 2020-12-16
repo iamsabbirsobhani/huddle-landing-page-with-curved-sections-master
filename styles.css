@@ -398,7 +398,7 @@ body>div>div.item.item-1>img {
 /* Media Query*/
 
 /* For (Tablet && Less than PC/Laptop) devices (min-width: 425px) and */
-@media (max-width: 786px) {
+@media (max-width: 768px) {
 
 
 
