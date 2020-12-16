@@ -83,6 +83,7 @@ body>div>div.item.item-1>img {
     outline: none;
     cursor: pointer;
     background-color: #FD53C0;
+    box-shadow: .1px 0px 10px .1px rgb(170, 170, 170);
     transition: all cubic-bezier(.17, .67, .83, .67) .3s;
 }
 
@@ -225,6 +226,7 @@ body>div>div.item.item-1>img {
     outline: none;
     cursor: pointer;
     background-color: #FD53C0;
+    box-shadow: .1px 0px 10px .1px rgb(170, 170, 170);
     transition: all cubic-bezier(.17, .67, .83, .67) .3s;
 }
 
@@ -529,7 +531,7 @@ body>div>div.item.item-1>img {
 
     .item-1 button {
         width: 100px;
-        height: 25px;
+        height: 30px;
         font-size: 12px;
     }
 
