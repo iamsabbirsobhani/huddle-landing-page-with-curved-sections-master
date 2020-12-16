@@ -520,7 +520,7 @@ body>div>div.item.item-1>img {
 
 /* MAX width 425 */
 
-@media (min-width:375px) and  (max-width: 425px) {
+@media (min-width:320px) and  (max-width: 626px) {
 
 
     .item-1{
