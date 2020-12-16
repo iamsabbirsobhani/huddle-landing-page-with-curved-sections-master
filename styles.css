@@ -931,8 +931,12 @@ body>div>div.item.item-1>img {
     .item-4-bg-top, .item-4-bg-bottom,.item-6-bg-top, .item-6-bg-bottom,.footerbackground{
         display: none;
     }
+    .attribution{
+        font-size: 12px;
+    }
+
 }
-}
+
 
 /* End */
 
